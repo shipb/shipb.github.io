@@ -1,0 +1,10 @@
+# Dev tooling / artifacts — not part of the static site
+node_modules/
+package.json
+package-lock.json
+screenshot-pages.js
+screenshots/
+test-results/
+redesign-preview.png
+shipboss-homepage.png
+.omc/

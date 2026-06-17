@@ -1,215 +1,116 @@
 <!DOCTYPE html>
-<html  >
+<html lang="en">
 <head>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
+  <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/shipboss-logo-red-shape-128x128.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  
-  <title>Blog</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=3TU6VJ"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=3TU6VJ" type="text/css">
-  <link rel="stylesheet" href="assets/theme/css/custom-enhancements.css">
-
-  
-  
-  
+  <meta name="description" content="ShipBoss Blog — Shipping tips, carrier updates, and e-commerce fulfillment insights.">
+  <title>Blog — ShipBoss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/redesign.css">
+  <style>
+    .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    @media (max-width: 1024px) { .blog-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .blog-grid { grid-template-columns: 1fr; } }
+    .blog-card { background: var(--white); border-radius: var(--radius-lg); border: 1px solid var(--gray-200); overflow: hidden; transition: box-shadow 0.2s, transform 0.2s; }
+    .blog-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.1); transform: translateY(-3px); }
+    .blog-card-img { height: 200px; background: var(--surface-low); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .blog-card-img img { width: 100%; height: 100%; object-fit: cover; }
+    .blog-card-body { padding: 24px; }
+    .blog-tag { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--red); }
+    .blog-card-body h3 { font-size: 1.05rem; font-weight: 700; color: var(--text); margin: 8px 0; line-height: 1.4; }
+    .blog-card-body p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; }
+    .blog-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 16px; }
+  </style>
 </head>
 <body>
-  
-  <section class="menu cid-s1YLZwONfz" once="menu" id="menu1-4">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <a href="index.html" class="navbar-logo logo-link">
-                    <img src="assets/images/shipboss-logo-red-shape-128x128.png" alt="" class="logo-icon">
-                    <span class="logo-text">SHIPBOSS</span>
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.html">Home</a>
-                    </li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="features.html">Features</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="pricing.html">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="about.html">About Us</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="contact.html">Contact<br></a></li></ul>
-                <div class="icons-menu">
-                    <a href="https://cfs.crisp.help/en/" target="_blank" title="Support">
-                        <span class="p-2 mbr-iconfont mobi-mbri-info mobi-mbri"></span>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary-outline display-4" href="https://ship.shipboss.io" target="_blank"><span class="mbrib-login mbr-iconfont mbr-iconfont-btn"></span>Login</a></div>
-            </div>
-        </div>
-    </nav>
-</section>
+<nav class="navbar" id="navbar"><div class="container"><div class="navbar-inner">
+  <a href="index.html" class="navbar-logo"><img src="assets/images/shipboss-logo-red-shape-128x128.png" alt="ShipBoss" class="logo-icon"><span class="logo-text">SHIPBOSS</span></a>
+  <ul class="navbar-nav"><li><a href="index.html">Home</a></li><li><a href="features.html">Features</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li></ul>
+  <div class="navbar-actions"><a href="https://cfs.crisp.help/en/" target="_blank" class="btn btn-ghost btn-sm">Support</a><a href="https://ship.shipboss.io" target="_blank" class="btn btn-outline-red btn-sm">Login</a></div>
+  <button class="navbar-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</div></div>
+<div class="navbar-mobile" id="navMobile"><a href="index.html">Home</a><a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="about.html">About Us</a><a href="contact.html">Contact</a>
+  <div class="mobile-actions"><a href="https://ship.shipboss.io" target="_blank" class="btn btn-outline-red btn-sm">Login</a><a href="https://ship.shipboss.io/sign-up?adminId=c2hpcGJvc3NLZXkxNzE=" target="_blank" class="btn btn-primary btn-sm">Sign Up Free</a></div>
+</div></nav>
 
-<section class="content2 solutionm4_content2 cid-u7uavJFIEU" id="content2-j">
-    
-    
+<section class="page-hero"><div class="container">
+  <span class="eyebrow">Resources</span>
+  <h1 class="display-hero">Shipping Insights &amp;<br>Industry Updates</h1>
+  <p>Tips, guides, and carrier news to help you ship smarter and grow your business.</p>
+</div></section>
 
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-12 md-pb">
-                <img src="assets/images/03.webp" alt="">
-            </div>
-
-            <div class="col-lg-6 col-md-12 md-pb">
-                <div class="title-wrapper align-left">
-                    <div class="line"></div>
-                    <h3 class="mbr-section-title mbr-white mbr-semibold pb-3 mbr-fonts-style display-2">Blog<br></h3>
-                    <p class="mbr-text pb-3 mbr-white mbr-light mbr-fonts-style display-7">Lorem ipsum dolor sit
-                        amet, consectetur adipiscing elit. Mauris finibus leo et diam fermentum ullamcorper. Nulla
-                        venenatis nibh sollicitudin tincidunt gravida. Nam convallis justo et ligula luctus suscipit.
-                        Etiam eu nisi turpis. Donec sollicitudin accumsan quam, rhoncus sagittis metus semper quis.
-                        Praesent convallis mauris sed ipsum lobortis facilisis. Nulla cursus sem non nunc sagittis, a
-                        volutpat mauris lobortis. Nulla ut feugiat tellus. Nam dictum nisi nec scelerisque auctor<br>
-                    </p>
-                </div>
-            </div>
-        </div>
+<section class="section-pad"><div class="container">
+  <div class="blog-grid">
+    <div class="blog-card fade-up">
+      <div class="blog-card-img"><img src="assets/images/blog-fedex-vs-ups.webp" alt="FedEx vs UPS comparison"></div>
+      <div class="blog-card-body">
+        <div class="blog-tag">Carriers</div>
+        <h3>FedEx vs UPS 2024: Which Carrier Is Right for Your Business?</h3>
+        <p>A detailed side-by-side comparison of rates, reliability, and features to help you choose the right carrier — or use both.</p>
+        <div class="blog-meta">5 min read &nbsp;·&nbsp; Shipping Tips</div>
+      </div>
     </div>
-</section>
-
-<section class="footer2 cid-s1YMdWQfw7" once="footers" id="footer2-5">
-    
-    
-    <div class="container">
-        <div class="row align-left">
-            <div class="col-md-6 col-lg-3">
-                <h3 class="title pb-2 align-left mbr-bold mbr-fonts-style display-2"><a href="index.html" class="text-primary">ShipBoss</a></h3>
-                <p class="mbr-text align-left mbr-white mbr-regular mbr-fonts-style display-7">Simplify Your Shipping with ShipBoss.<br></p>
-                <div class="socicon-wrap">
-                    
-                    
-                    
-                    
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="align-wrap">
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7">
-                                <a href="index.html" class="text-primary">Home</a><br></p>
-                        </div>
-                    </div>
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7"><a href="features.html" class="text-primary">Features</a></p>
-                        </div>
-                    </div>
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7"><a href="pricing.html" class="text-primary">Pricing</a></p>
-                        </div>
-                    </div>
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7"><a href="about.html" class="text-primary">About Us</a></p>
-                        </div>
-                    </div>
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7"><a href="https://cfs.crisp.help/en/" class="text-primary" target="_blank">Support</a></p>
-                        </div>
-                    </div>
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7"><a href="privacy.html" class="text-primary">Privacy Policy</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="align-wrap">
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7"><a href="https://ship.shipboss.io" class="text-primary" target="_blank">Login</a></p>
-                        </div>
-                    </div>
-                    <div class="item-wrap">
-                        <div class="icons-wrap pb-2">
-                            <p class="icon-title mbr-regular mbr-fonts-style display-7"><a href="https://ship.shipboss.io/sign-up?adminId=c2hpcGJvc3NLZXkxNzE=" class="text-primary" target="_blank">Sign Up</a></p>
-                        </div>
-                    </div>
-                    <div class="item-wrap">
-                        
-                    </div>
-                    <div class="item-wrap">
-                        
-                    </div>
-                    <div class="item-wrap">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 align-center col-lg-3">
-
-                <div class="list-items pb-4">
-                    <div class="item mbr-flex">
-                        <span class="item-icon mobi-mbri-letter mobi-mbri"></span>
-                        <p class="item-text mbr-regular mbr-white mbr-fonts-style display-7">info@shipboss.io </p>
-                    </div>
-
-                    <div class="item mbr-flex">
-                        <span class="item-icon mobi-mbri-map-pin mobi-mbri"></span>
-                        <p class="item-text mbr-regular mbr-white mbr-fonts-style display-7">Hartom 10, Jerusalem</p>
-
-                    </div>
-
-                    
-
-                    
-
-                    
-                </div>
-                <div class="mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="mailto:info@shipboss.io"><span class="mobi-mbri mobi-mbri-letter mbr-iconfont mbr-iconfont-btn"></span>CONTACT US</a></div>
-            </div>
-        </div>
+    <div class="blog-card fade-up delay-1">
+      <div class="blog-card-img"><img src="assets/images/blog-shopify-automation.webp" alt="Shopify order fulfillment automation"></div>
+      <div class="blog-card-body">
+        <div class="blog-tag">E-commerce</div>
+        <h3>How to Automate Shopify Order Fulfillment from Start to Finish</h3>
+        <p>Stop manually entering orders. This guide walks through connecting your Shopify store to ShipBoss and automating the entire fulfillment workflow.</p>
+        <div class="blog-meta">7 min read &nbsp;·&nbsp; E-commerce</div>
+      </div>
     </div>
-</section>
+    <div class="blog-card fade-up delay-2">
+      <div class="blog-card-img"><img src="assets/images/blog-surcharges.webp" alt="UPS invoice surcharges"></div>
+      <div class="blog-card-body">
+        <div class="blog-tag">Rate Negotiation</div>
+        <h3>5 Surcharges You're Probably Overpaying on Your UPS Invoice</h3>
+        <p>Most businesses pay more than they need to because they don't know where to look. Here are the top surcharges to negotiate away.</p>
+        <div class="blog-meta">6 min read &nbsp;·&nbsp; Cost Savings</div>
+      </div>
+    </div>
+    <div class="blog-card fade-up">
+      <div class="blog-card-img"><img src="assets/images/blog-tracking.webp" alt="Real-time shipment tracking"></div>
+      <div class="blog-card-body">
+        <div class="blog-tag">Tracking</div>
+        <h3>Why Real-Time Shipment Tracking Reduces Customer Support Tickets</h3>
+        <p>When customers can see where their package is, they stop emailing you asking. Here's how proactive tracking transforms your support workload.</p>
+        <div class="blog-meta">4 min read &nbsp;·&nbsp; Customer Experience</div>
+      </div>
+    </div>
+    <div class="blog-card fade-up delay-1">
+      <div class="blog-card-img"><img src="assets/images/blog-reseller.webp" alt="3PL reseller business"></div>
+      <div class="blog-card-body">
+        <div class="blog-tag">Reseller</div>
+        <h3>How to Build a Profitable 3PL Reseller Business with ShipBoss</h3>
+        <p>Everything you need to know about starting and growing a shipping reseller operation — from signing your first client to scaling to 50+.</p>
+        <div class="blog-meta">10 min read &nbsp;·&nbsp; Business Growth</div>
+      </div>
+    </div>
+    <div class="blog-card fade-up delay-2">
+      <div class="blog-card-img"><img src="assets/images/blog-bulk-shipping.webp" alt="Bulk shipping labels"></div>
+      <div class="blog-card-body">
+        <div class="blog-tag">Features</div>
+        <h3>Bulk Shipping 101: How to Create 500 Labels in Under 10 Minutes</h3>
+        <p>ShipBoss's bulk shipping tool lets you upload a CSV, validate addresses, pick rates, and print all your labels in one batch. Here's how.</p>
+        <div class="blog-meta">5 min read &nbsp;·&nbsp; Efficiency</div>
+      </div>
+    </div>
+  </div>
+</div></section>
 
+<section class="cta-banner"><div class="container">
+  <h2 class="display-lg fade-up">Ready to ship smarter?</h2>
+  <p class="fade-up delay-1">Create your free ShipBoss account and put these insights into action.</p>
+  <div class="cta-btns fade-up delay-2"><a href="https://ship.shipboss.io/sign-up?adminId=c2hpcGJvc3NLZXkxNzE=" target="_blank" class="btn btn-primary btn-lg">Get Started Free</a><a href="features.html" class="btn btn-outline">Explore Features</a></div>
+</div></section>
 
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  
-  
-  
-</body>
-</html>
+<footer class="site-footer"><div class="container"><div class="footer-grid">
+  <div class="footer-brand"><a href="index.html" class="footer-logo"><img src="assets/images/shipboss-logo-red-shape-128x128.png" alt="ShipBoss" class="logo-icon"><span class="logo-text">SHIPBOSS</span></a><p class="tagline">The all-in-one shipping management platform for growing businesses.</p></div>
+  <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="features.html">Features</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About Us</a></li><li><a href="https://cfs.crisp.help/en/" target="_blank">Support</a></li><li><a href="privacy.html">Privacy Policy</a></li></ul></div>
+  <div class="footer-col"><h4>Account</h4><ul><li><a href="https://ship.shipboss.io" target="_blank">Login</a></li><li><a href="https://ship.shipboss.io/sign-up?adminId=c2hpcGJvc3NLZXkxNzE=" target="_blank">Sign Up Free</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+  <div class="footer-col"><h4>Contact</h4><div class="footer-contact"><div class="footer-contact-item"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:info@shipboss.io" style="color:inherit">info@shipboss.io</a></div><div class="footer-contact-item"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>Hartom 10, Jerusalem</span></div></div></div>
+</div><div class="footer-bottom"><span>&copy; 2024 ShipBoss. All rights reserved.</span><div class="footer-bottom-links"><a href="privacy.html">Privacy Policy</a><a href="https://cfs.crisp.help/en/" target="_blank">Support</a></div></div></div></footer>
+<script>const navbar=document.getElementById('navbar');window.addEventListener('scroll',()=>navbar.classList.toggle('scrolled',window.scrollY>20));document.getElementById('navToggle').addEventListener('click',()=>document.getElementById('navMobile').classList.toggle('open'));const observer=new IntersectionObserver((entries)=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');}),{threshold:0.1,rootMargin:'0px 0px -40px 0px'});document.querySelectorAll('.fade-up').forEach(el=>observer.observe(el));</script>
+</body></html>
